@@ -308,7 +308,7 @@ export const KavehChatModal: React.FC<KavehChatModalProps> = ({
           {/* Kaveh Circular Avatar with WhatsApp-style online dot */}
           <div className="relative shrink-0">
             <img
-              src="/kaveh.jpg"
+              src="./kaveh.jpg"
               alt="مهندس کاوه"
               className="w-10 h-10 rounded-full object-cover border-2 border-[#C5A880] shadow"
             />
@@ -410,7 +410,7 @@ export const KavehChatModal: React.FC<KavehChatModalProps> = ({
                       src={msg.featuredProperty.imageUrl}
                       alt={msg.featuredProperty.title}
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = '/images/property_niavaran_garden.jpg';
+                        (e.target as HTMLImageElement).src = './images/property_niavaran_garden.jpg';
                       }}
                       className="w-full h-full object-cover"
                     />

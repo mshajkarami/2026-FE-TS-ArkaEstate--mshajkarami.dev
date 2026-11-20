@@ -19,7 +19,7 @@ interface PrivateConciergeSectionProps {
 const CONCIERGE_SERVICES = [
   {
     icon: ShieldCheck,
-    emblem: '/images/emblem_structural_cube.jpg',
+    emblem: './images/emblem_structural_cube.jpg',
     title: 'ممیزی فنی و استحکام‌سنجی پیش از معامله',
     description:
       'اعزام مهندس ارشد سازه پیش از پرداخت هرگونه بیعانه؛ تست مقاومت مصالح، بررسی عایق‌های صوتی، تاسیسات مکانیکی و تایید انطباق نقشه معماری با وضع موجود.',
@@ -27,7 +27,7 @@ const CONCIERGE_SERVICES = [
   },
   {
     icon: Scale,
-    emblem: '/images/emblem_legal_seal.jpg',
+    emblem: './images/emblem_legal_seal.jpg',
     title: 'استعلام اصالت اسناد و تضمین ۱۰۰٪ حقوقی',
     description:
       'استعلام رسمی کاداستر اداره ثبت، احراز سلامت پایان‌کار شهرداری، بررسی ریشه ملک در مراجع قضایی و تنظیم مبایعه‌نامه اختصاصی توسط وکیل پایه یک دادگستری.',
@@ -35,7 +35,7 @@ const CONCIERGE_SERVICES = [
   },
   {
     icon: KeyRound,
-    emblem: '/images/emblem_concierge_key.jpg',
+    emblem: './images/emblem_concierge_key.jpg',
     title: 'مدیریت دارایی و تحویل کلید اختصاصی VIP',
     description:
       'حفاظت و نگهداری دوره‌ای از پنت‌هاوس‌ها، گزینش مستأجران معتبر از میان مدیران ارشد و دیپلمات‌ها، تحویل کلید اختصاصی و مدیریت بی‌دردسر امور ملکی.',
@@ -43,7 +43,7 @@ const CONCIERGE_SERVICES = [
   },
   {
     icon: Paintbrush,
-    emblem: '/images/emblem_roi_wealth.jpg',
+    emblem: './images/emblem_roi_wealth.jpg',
     title: 'مهندسی مالی، توازن سبد دارایی و بیشینه‌سازی بازده (ROI)',
     description:
       'تحلیل نقاط ورود و خروج، محاسبه سنجه فرصت، بهره‌گیری از اهرم رهن کامل، بازآرایی پورتفولیو و تضمین بیشترین نرخ بهره‌وری و سپر تورمی دارایی ملکی.',
@@ -62,7 +62,7 @@ export const PrivateConciergeSection: React.FC<PrivateConciergeSectionProps> = (
           <div className="max-w-2xl space-y-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#132E27]/10 border border-[#132E27]/20 text-xs font-bold text-[#132E27]">
               <img
-                src="/images/emblem_concierge_key.jpg"
+                src="./images/emblem_concierge_key.jpg"
                 alt="نشان کنسیرژ VIP"
                 className="w-4 h-4 rounded-full object-cover border border-[#C5A880]/50"
               />

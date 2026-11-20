@@ -364,7 +364,7 @@ export const PropertyShowcase: React.FC<PropertyShowcaseProps> = ({
                             className="h-10 sm:h-11 px-2 sm:px-3.5 rounded-2xl border border-[#C5A880]/50 bg-white hover:bg-[#F5EFE6] text-[#0B1B17] text-[11px] sm:text-xs font-bold flex items-center justify-center gap-1.5 transition-colors cursor-pointer whitespace-nowrap shadow-2xs active:scale-[0.98]"
                           >
                             <img
-                              src="/kaveh.jpg"
+                              src="./kaveh.jpg"
                               alt="کاوه"
                               className="w-4 h-4 sm:w-5 sm:h-5 rounded-full object-cover border border-[#C5A880]"
                             />

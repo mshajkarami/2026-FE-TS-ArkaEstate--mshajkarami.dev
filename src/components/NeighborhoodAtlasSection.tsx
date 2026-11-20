@@ -28,28 +28,28 @@ const NEIGHBORHOOD_DATA: Record<
   }
 > = {
   niavaran: {
-    image: '/images/neighborhood_niavaran.jpg',
+    image: './images/neighborhood_niavaran.jpg',
     vibe: 'برج‌باغ‌های اصیل با کوچه‌باغ‌های دنج و کوهستانی',
     climate: '۳ درجه خنک‌تر از مرکز شهر',
     liquidityDays: 42,
     tranquilityScore: 95,
   },
   elahieh: {
-    image: '/images/neighborhood_elahieh.jpg',
+    image: './images/neighborhood_elahieh.jpg',
     vibe: 'خیابان‌های دیپلمات‌نشین، گالری‌ها و معماری های‌تک',
     climate: 'هوای معتدل کوهپایه با باد شمال‌غربی',
     liquidityDays: 38,
     tranquilityScore: 90,
   },
   farmanieh: {
-    image: '/images/neighborhood_farmanieh.jpg',
+    image: './images/neighborhood_farmanieh.jpg',
     vibe: 'تلفیق آرامش بن‌بست‌های سنبل با دسترسی شاهراهی صدر',
     climate: 'پایش مستمر کیفیت هوا و پوشش گیاهی غنی',
     liquidityDays: 34,
     tranquilityScore: 92,
   },
   shahrak: {
-    image: '/images/neighborhood_shahrak.jpg',
+    image: './images/neighborhood_shahrak.jpg',
     vibe: 'شهرسازی مهندسی‌شده، خیابان‌های پهن و بافت ویلایی ناب',
     climate: 'دالان باد غرب تهران و آسمان باز بدون سایه‌انداز',
     liquidityDays: 45,

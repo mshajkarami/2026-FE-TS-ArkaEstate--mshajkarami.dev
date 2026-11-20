@@ -47,7 +47,7 @@ export const KavehFab: React.FC<KavehFabProps> = ({ onOpenKaveh }) => {
         {/* Kaveh's Official Avatar with Online Badge */}
         <div className="relative shrink-0">
           <img
-            src="/kaveh.jpg"
+            src="./kaveh.jpg"
             alt="مهندس کاوه"
             className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border border-[#C5A880] shadow-md group-hover:scale-105 transition-transform"
           />

@@ -472,17 +472,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           >
             <div className="flex -space-x-2 space-x-reverse shrink-0">
               <img
-                src="/images/expert_arman_kazemi.jpg"
+                src="./images/expert_arman_kazemi.jpg"
                 alt="مهندس آرمان کاظمی"
                 className="w-6 h-6 sm:w-7 sm:h-7 rounded-full object-cover object-top border-2 border-[#0B1B17] shadow-sm"
               />
               <img
-                src="/images/expert_sara_matinfar.jpg"
+                src="./images/expert_sara_matinfar.jpg"
                 alt="دکتر سارا متین‌فر"
                 className="w-6 h-6 sm:w-7 sm:h-7 rounded-full object-cover object-top border-2 border-[#0B1B17] shadow-sm"
               />
               <img
-                src="/images/expert_mehrdad_farhadi.jpg"
+                src="./images/expert_mehrdad_farhadi.jpg"
                 alt="مهرداد فرهادی"
                 className="w-6 h-6 sm:w-7 sm:h-7 rounded-full object-cover object-top border-2 border-[#0B1B17] shadow-sm"
               />
@@ -873,7 +873,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 className="w-full h-11 sm:h-12 px-3.5 sm:px-4 rounded-2xl gold-cta-btn text-[#0B1B17] text-xs sm:text-[13px] font-extrabold flex items-center justify-center gap-2.5 shadow-lg shadow-[#C5A880]/30 cursor-pointer whitespace-nowrap hover:scale-[1.02] active:scale-[0.98] transition-all"
               >
                 <img
-                  src="/kaveh.jpg"
+                  src="./kaveh.jpg"
                   alt="مهندس کاوه"
                   className="w-6 h-6 rounded-full object-cover border border-[#0B1B17] shrink-0"
                 />

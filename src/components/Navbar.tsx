@@ -287,7 +287,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <span className="flex items-center gap-2">
               <img
-                src="/kaveh.jpg"
+                src="./kaveh.jpg"
                 alt="مهندس کاوه"
                 className="w-5 h-5 rounded-full object-cover border border-[#C5A880]"
               />

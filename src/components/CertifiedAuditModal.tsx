@@ -331,12 +331,12 @@ export const CertifiedAuditModal: React.FC<CertifiedAuditModalProps> = ({
               <div className="flex items-start justify-between gap-2 mb-2">
                 <div className="flex items-center gap-2">
                   <img
-                    src="/images/expert_arman_kazemi.jpg"
+                    src="./images/expert_arman_kazemi.jpg"
                     alt="مهندس آرمان کاظمی"
                     className="w-11 h-11 rounded-full object-cover object-top border-2 border-[#10B981] shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_structural_cube.jpg"
+                    src="./images/emblem_structural_cube.jpg"
                     alt="نشان سازه"
                     className="w-9 h-9 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -385,12 +385,12 @@ export const CertifiedAuditModal: React.FC<CertifiedAuditModalProps> = ({
               <div className="flex items-start justify-between gap-2 mb-2">
                 <div className="flex items-center gap-2">
                   <img
-                    src="/images/expert_sara_matinfar.jpg"
+                    src="./images/expert_sara_matinfar.jpg"
                     alt="دکتر سارا متین‌فر"
                     className="w-11 h-11 rounded-full object-cover object-top border-2 border-[#C5A880] shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_legal_seal.jpg"
+                    src="./images/emblem_legal_seal.jpg"
                     alt="نشان حقوقی"
                     className="w-9 h-9 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -439,12 +439,12 @@ export const CertifiedAuditModal: React.FC<CertifiedAuditModalProps> = ({
               <div className="flex items-start justify-between gap-2 mb-2">
                 <div className="flex items-center gap-2">
                   <img
-                    src="/images/expert_mehrdad_farhadi.jpg"
+                    src="./images/expert_mehrdad_farhadi.jpg"
                     alt="مهرداد فرهادی"
                     className="w-11 h-11 rounded-full object-cover object-top border-2 border-cyan-400 shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_roi_wealth.jpg"
+                    src="./images/emblem_roi_wealth.jpg"
                     alt="نشان رشد ثروت"
                     className="w-9 h-9 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -586,10 +586,10 @@ export const CertifiedAuditModal: React.FC<CertifiedAuditModalProps> = ({
                 <img
                   src={
                     activeExpert.role === 'architect'
-                      ? '/images/expert_arman_kazemi.jpg'
+                      ? './images/expert_arman_kazemi.jpg'
                       : activeExpert.role === 'legal'
-                      ? '/images/expert_sara_matinfar.jpg'
-                      : '/images/expert_mehrdad_farhadi.jpg'
+                      ? './images/expert_sara_matinfar.jpg'
+                      : './images/expert_mehrdad_farhadi.jpg'
                   }
                   alt={activeExpert.expertName}
                   className="w-14 h-14 rounded-2xl object-cover object-top border-2 border-[#C5A880] shadow-md shrink-0"
@@ -597,10 +597,10 @@ export const CertifiedAuditModal: React.FC<CertifiedAuditModalProps> = ({
                 <img
                   src={
                     activeExpert.role === 'architect'
-                      ? '/images/emblem_structural_cube.jpg'
+                      ? './images/emblem_structural_cube.jpg'
                       : activeExpert.role === 'legal'
-                      ? '/images/emblem_legal_seal.jpg'
-                      : '/images/emblem_roi_wealth.jpg'
+                      ? './images/emblem_legal_seal.jpg'
+                      : './images/emblem_roi_wealth.jpg'
                   }
                   alt="نشان رسمی ممیزی"
                   className="w-12 h-12 rounded-xl object-cover border border-[#C5A880]/40 shadow-sm shrink-0"

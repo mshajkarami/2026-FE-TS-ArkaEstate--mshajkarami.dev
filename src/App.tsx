@@ -316,7 +316,7 @@ export default function App() {
               onClick={() => openKavehForProperty(null)}
               className="hover:text-[#C5A880] transition-colors cursor-pointer flex items-center gap-1.5"
             >
-              <img src="/kaveh.jpg" alt="کاوه" className="w-3.5 h-3.5 rounded-full object-cover inline-block" />
+              <img src="./kaveh.jpg" alt="کاوه" className="w-3.5 h-3.5 rounded-full object-cover inline-block" />
               <span>مشاوره با کاوه</span>
             </button>
             <a href="#roi-simulator" className="hover:text-[#C5A880] transition-colors">

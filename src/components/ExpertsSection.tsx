@@ -5,8 +5,8 @@ import { toPersianDigits } from '../utils/format';
 const EXPERTS = [
   {
     id: 'architect',
-    image: '/images/expert_arman_kazemi.jpg',
-    emblem: '/images/emblem_structural_cube.jpg',
+    image: './images/expert_arman_kazemi.jpg',
+    emblem: './images/emblem_structural_cube.jpg',
     initials: 'آک',
     name: 'مهندس آرمان کاظمی',
     role: 'کارشناس ارشد سازه و معماری',
@@ -18,8 +18,8 @@ const EXPERTS = [
   },
   {
     id: 'legal',
-    image: '/images/expert_sara_matinfar.jpg',
-    emblem: '/images/emblem_legal_seal.jpg',
+    image: './images/expert_sara_matinfar.jpg',
+    emblem: './images/emblem_legal_seal.jpg',
     initials: 'سم',
     name: 'دکتر سارا متین‌فر',
     role: 'مشاور حقوقی و ارزیابی اسناد ملکی',
@@ -31,8 +31,8 @@ const EXPERTS = [
   },
   {
     id: 'investment',
-    image: '/images/expert_mehrdad_farhadi.jpg',
-    emblem: '/images/emblem_roi_wealth.jpg',
+    image: './images/expert_mehrdad_farhadi.jpg',
+    emblem: './images/emblem_roi_wealth.jpg',
     initials: 'مف',
     name: 'مهرداد فرهادی',
     role: 'تحلیلگر ارشد سرمایه‌گذاری املاک',

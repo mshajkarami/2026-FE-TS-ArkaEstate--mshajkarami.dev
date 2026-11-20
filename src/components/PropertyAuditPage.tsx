@@ -500,7 +500,7 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
                 onClick={() => onConsultKaveh(property)}
                 className="w-full h-12 rounded-2xl border border-[#C5A880]/40 bg-[#F5EFE6] hover:bg-[#EDE3D4] text-[#0B1B17] text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
               >
-                <img src="/kaveh.jpg" alt="مهندس کاوه" className="w-6 h-6 rounded-full object-cover border border-[#C5A880]" />
+                <img src="./kaveh.jpg" alt="مهندس کاوه" className="w-6 h-6 rounded-full object-cover border border-[#C5A880]" />
                 <span>تحلیل عمیق و حباب‌سنجی این فایل با کاوه</span>
                 <Sparkles className="w-3.5 h-3.5 text-[#9A7D56]" />
               </button>
@@ -535,12 +535,12 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               <div className="flex items-start justify-between gap-3 mb-3">
                 <div className="flex items-center gap-2.5">
                   <img
-                    src="/images/expert_arman_kazemi.jpg"
+                    src="./images/expert_arman_kazemi.jpg"
                     alt="مهندس آرمان کاظمی"
                     className="w-13 h-13 rounded-2xl object-cover object-top border-2 border-[#10B981] shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_structural_cube.jpg"
+                    src="./images/emblem_structural_cube.jpg"
                     alt="نشان ۳D سازه"
                     className="w-11 h-11 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -589,12 +589,12 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               <div className="flex items-start justify-between gap-3 mb-3">
                 <div className="flex items-center gap-2.5">
                   <img
-                    src="/images/expert_sara_matinfar.jpg"
+                    src="./images/expert_sara_matinfar.jpg"
                     alt="دکتر سارا متین‌فر"
                     className="w-13 h-13 rounded-2xl object-cover object-top border-2 border-[#C5A880] shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_legal_seal.jpg"
+                    src="./images/emblem_legal_seal.jpg"
                     alt="نشان ۳D حقوقی"
                     className="w-11 h-11 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -643,12 +643,12 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               <div className="flex items-start justify-between gap-3 mb-3">
                 <div className="flex items-center gap-2.5">
                   <img
-                    src="/images/expert_mehrdad_farhadi.jpg"
+                    src="./images/expert_mehrdad_farhadi.jpg"
                     alt="مهرداد فرهادی"
                     className="w-13 h-13 rounded-2xl object-cover object-top border-2 border-cyan-400 shadow-sm shrink-0"
                   />
                   <img
-                    src="/images/emblem_roi_wealth.jpg"
+                    src="./images/emblem_roi_wealth.jpg"
                     alt="نشان ۳D رشد ثروت"
                     className="w-11 h-11 rounded-xl object-cover border border-[#C5A880]/40 shadow-xs shrink-0"
                   />
@@ -696,10 +696,10 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               <img
                 src={
                   activeExpert.role === 'architect'
-                    ? '/images/expert_arman_kazemi.jpg'
+                    ? './images/expert_arman_kazemi.jpg'
                     : activeExpert.role === 'legal'
-                    ? '/images/expert_sara_matinfar.jpg'
-                    : '/images/expert_mehrdad_farhadi.jpg'
+                    ? './images/expert_sara_matinfar.jpg'
+                    : './images/expert_mehrdad_farhadi.jpg'
                 }
                 alt={activeExpert.expertName}
                 className="w-16 h-16 rounded-2xl object-cover object-top border-2 border-[#C5A880] shadow-md shrink-0"
@@ -707,10 +707,10 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               <img
                 src={
                   activeExpert.role === 'architect'
-                    ? '/images/emblem_structural_cube.jpg'
+                    ? './images/emblem_structural_cube.jpg'
                     : activeExpert.role === 'legal'
-                    ? '/images/emblem_legal_seal.jpg'
-                    : '/images/emblem_roi_wealth.jpg'
+                    ? './images/emblem_legal_seal.jpg'
+                    : './images/emblem_roi_wealth.jpg'
                 }
                 alt="نشان رسمی ممیزی"
                 className="w-13 h-13 rounded-xl object-cover border border-[#C5A880]/40 shadow-sm shrink-0"
@@ -893,7 +893,7 @@ export const PropertyAuditPage: React.FC<PropertyAuditPageProps> = ({
               onClick={() => onConsultKaveh(property)}
               className="w-full sm:w-auto h-12 px-5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs sm:text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition-colors"
             >
-              <img src="/kaveh.jpg" alt="مهندس کاوه" className="w-5 h-5 rounded-full object-cover" />
+              <img src="./kaveh.jpg" alt="مهندس کاوه" className="w-5 h-5 rounded-full object-cover" />
               <span>ممیزی با کاوه</span>
             </button>
 

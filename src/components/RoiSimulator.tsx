@@ -141,7 +141,7 @@ export const RoiSimulator: React.FC<RoiSimulatorProps> = ({ onOpenVip }) => {
           <div className="max-w-2xl space-y-3">
             <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-[#C5A880]/30 text-xs font-bold text-[#C5A880]">
               <img
-                src="/images/emblem_roi_wealth.jpg"
+                src="./images/emblem_roi_wealth.jpg"
                 alt="نشان رشد ثروت"
                 className="w-4 h-4 rounded-md object-cover border border-[#C5A880]/50"
               />
@@ -347,7 +347,7 @@ export const RoiSimulator: React.FC<RoiSimulatorProps> = ({ onOpenVip }) => {
                     </div>
                   </div>
                   <img
-                    src="/images/emblem_roi_wealth.jpg"
+                    src="./images/emblem_roi_wealth.jpg"
                     alt="نشان رشد ثروت"
                     className="w-10 h-10 rounded-xl object-cover border border-[#C5A880]/50 shadow-md shrink-0"
                   />

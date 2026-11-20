@@ -7,7 +7,15 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Live Demo](https://img.shields.io/badge/Demo-Live_on_GitHub_Pages-2EA44F?logo=githubpages&logoColor=white)](https://mshajkarami.github.io/2026-FE-TS-ArkaEstate--mshajkarami.dev/)
 [![License](https://img.shields.io/badge/License-mshajkarami.dev_v1.0-C5A880)](./LICENSE)
+
+---
+
+## 🌐 Live Platform & Source
+
+* 🚀 **Live Demo on GitHub Pages:** **[https://mshajkarami.github.io/2026-FE-TS-ArkaEstate--mshajkarami.dev/](https://mshajkarami.github.io/2026-FE-TS-ArkaEstate--mshajkarami.dev/)**
+* 🐙 **Source Code:** **[github.com/mshajkarami/2026-FE-TS-ArkaEstate--mshajkarami.dev](https://github.com/mshajkarami/2026-FE-TS-ArkaEstate--mshajkarami.dev)**
 
 ---
 
