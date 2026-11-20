@@ -1,0 +1,6 @@
+{
+  "name": "آرکا استیت | ArkaEstate",
+  "description": "پلتفرم هوشمند مشاوره، تحلیل مهندسی و سرمایه‌گذاری املاک لوکس در برترین مناطق تهران.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
